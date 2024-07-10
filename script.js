@@ -153,9 +153,6 @@ function init() {
   //darMode = false -> light mode enable karna h 
   darkMode = false;
 
-  //HW
-// const prefersDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-
   const value = localStorage.getItem("dark-mode");
 
   if(value === null) {
@@ -173,7 +170,6 @@ function init() {
   }
 
 
-  //by default, pranaygupta ki info show krre h UI pr
   getUserData(url + "thepranaygupta");
 }
 

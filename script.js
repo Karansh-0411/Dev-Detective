@@ -161,11 +161,9 @@ function init() {
     lightModeProperties();
   }
   else if(value == "true") {
-    console.log("truer k andar");
     darkModeProperties();
   }
   else if(value == "false") {
-    console.log("false k andar");
     lightModeProperties();
   }
 
